@@ -1,8 +1,10 @@
 package Package_Trainer;
 
+import java.util.Scanner;
+
 public class Trainermain {
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Trainer trainer = new Trainer("Joe", 2000);
         System.out.println("Name: " + trainer.getName());
         System.out.println(trainer.getYearOfBirth());
@@ -12,6 +14,21 @@ public class Trainermain {
         System.out.println("Name: " + anotherTrainermain.getName());
         System.out.println(anotherTrainermain.getYearOfBirth());
 
+
+    }
+*/
+    public static void main(String[] args) {
+        System.out.println("Name?");
+        Scanner input = new Scanner(System.in);
+        String name = input.nextLine();
+
+        System.out.println("Birthday?");
+        Scanner input2 = new Scanner(System.in);
+        int birthday = input2.nextInt();
+
+        Trainer trainer = new Trainer(name, birthday);
+        System.out.println("Name: " + trainer.getName());
+        System.out.println("Year: "+  trainer.getYearOfBirth());
 
     }
 
