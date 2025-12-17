@@ -6,9 +6,9 @@ public class Trainer {
     private String name;
     private int yearOfBirth;
 
-    public Trainer() {
-        name = "Joe";
-        yearOfBirth = 2000;
+    public Trainer(String name, int yearOfBirth) {
+        this.name = name;
+        this.yearOfBirth = yearOfBirth;
     }
 
     public String getName() {return name;    }
