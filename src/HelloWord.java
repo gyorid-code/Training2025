@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HelloWord {
     public static void main(String[] args) {
-        String message = "Hello World!";
+        String message = "Welcome";
 
         System.out.println(message);
         System.out.println("What is your name?");
@@ -13,6 +13,11 @@ public class HelloWord {
         System.out.println("Year of Birthday" );
         int year = sc.nextInt();
         System.out.println("Your Birthday is " + year);
+        System.out.println("This year: ");
+        int today = sc.nextInt();
+        int kor = today - year;
+
+        System.out.println("Age: " +name+ " "+ kor);
 
 
     }
