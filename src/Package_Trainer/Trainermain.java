@@ -30,6 +30,8 @@ public class Trainermain {
         System.out.println("Name: " + trainer.getName());
         System.out.println("Year: "+  trainer.getYearOfBirth());
 
+
+
         String  eq = "Lola";
         System.out.println("Lola".equals(eq));
 
