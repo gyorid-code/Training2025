@@ -1,6 +1,5 @@
 package Package_Trainer;
 
-//import com.sun.jdi.event.MonitorWaitEvent;
 
 import java.time.LocalDate;
 import java.util.Scanner;
