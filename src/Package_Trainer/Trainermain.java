@@ -1,5 +1,6 @@
 package Package_Trainer;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Trainermain {
@@ -32,8 +33,14 @@ public class Trainermain {
 
 
 
-        String  eq = "Lola";
-        System.out.println("Lola".equals(eq));
+    //    String  eq = "Lola";
+    ///    System.out.println("Lola".equals(eq));
+
+        LocalDate date = LocalDate.now();
+        System.out.println(date);
+        LocalDate date2 = LocalDate.of(2025,12,18);
+        System.out.println("Keszult: "date2);
+
 
 
     }
