@@ -1,5 +1,7 @@
 package Package_Trainer;
 
+//import com.sun.jdi.event.MonitorWaitEvent;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -39,7 +41,7 @@ public class Trainermain {
         LocalDate date = LocalDate.now();
         System.out.println(date);
         LocalDate date2 = LocalDate.of(2025,12,18);
-        System.out.println("Keszult: "date2);
+        System.out.println("Keszult: "+ date2);
 
 
 
