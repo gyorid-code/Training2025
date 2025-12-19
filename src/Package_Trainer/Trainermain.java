@@ -1,6 +1,7 @@
 package Package_Trainer;
 
 import java.time.LocalDate;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Trainermain {
@@ -47,6 +48,8 @@ public class Trainermain {
         }
 
         System.out.println(Math.PI);
+        System.out.println(new Random(13));
+
 
 
     }
