@@ -46,6 +46,8 @@ public class Trainermain {
             System.out.println(a[i]);
         }
 
+        System.out.println(Math.PI);
+
 
     }
 
