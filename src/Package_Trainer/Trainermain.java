@@ -34,13 +34,13 @@ public class Trainermain {
 
 
 
-        LocalDate date = LocalDate.now();
-        System.out.println(date);
-        LocalDate date2 = LocalDate.of(2025,12,18);
-        System.out.println("Keszult: "+ date2);
+      //  LocalDate date = LocalDate.now();
+      //  System.out.println(date);
+      //  LocalDate date2 = LocalDate.of(2025,12,18);
+       // System.out.println("Keszult: "+ date2);
 
 
-        
+
         int[] a ={1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for(int i=0; i<5; i++) {
             System.out.println(a[i]);
